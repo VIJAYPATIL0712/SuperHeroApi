@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00FFFF;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  input[type="search"] {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    
+  }
+  .fav{
+    padding: 10px;
+    width: 80%;
+    margin-top: 15px;
+    border-radius:30px;
+  }
+  #superheroesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#00FFFF;
+    height:500px;
+  }
+  
+  .superhero-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .superhero-card img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    
+  }
+  
+  .superhero-card h2 {
+    margin: 10px 0;
+  }
+  
+  .favorite-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .favorite-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .result-section {
+    background-color: #00FFFF;
+  }
+  .result-section h2 {
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  #snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #a6445d;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  /*  Alert type box displaying in the bottom of the screen */
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+
+
+
+  .fav-section,
+  .about-sec {
+    background: cyan;
+  }
